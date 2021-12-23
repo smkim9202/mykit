@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--  /WEB-INF/decorators.xml -->
+<decorators defaultdir="/layout">
+   <decorator name="layout" page="layout.jsp">
+      <pattern>/</pattern>
+   </decorator>
+<!-- <decorator name="admin" page="layout.jsp">
+      <pattern>/admin/*</pattern>
+   </decorator> -->
+   
+   <!-- layout 설정 제외 -->
+   <excludes>
+	<pattern>/review/itemreview*</pattern>
+   	<pattern>/admin/admindelete*</pattern>
+	<pattern>/admin/adminupdate*</pattern>
+    <pattern>/user/userlogin*</pattern>
+    <pattern>/user/userentry*</pattern>
+    <pattern>/user/mypage*</pattern>
+    <pattern>/user/password*</pattern>
+    <pattern>/user/userdelete*</pattern>
+    <pattern>/user/userupdate*</pattern>
+    <pattern>/user/idsearch*</pattern>
+   	<pattern>/user/pwsearch*</pattern>
+   	<pattern>/user/idsend*</pattern>
+   	<pattern>/user/pwsend*</pattern>
+   	<pattern>/board/imgupload*</pattern>
+   	<pattern>/ajax/*</pattern>
+   	<pattern>/item/create*</pattern>
+   	<pattern>/item/add*</pattern>
+   	<pattern>/item/register*</pattern>
+   	<pattern>/item/edit*</pattern>
+   	<pattern>/item/update*</pattern>
+   	<pattern>/review/itemreview*</pattern>
+   </excludes>
+</decorators>

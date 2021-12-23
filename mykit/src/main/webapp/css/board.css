@@ -1,0 +1,186 @@
+@charset "UTF-8";
+@font-face{
+	font-family:'NanumBold';
+	src:url('fonts/NanumSquareEB.ttf');
+}
+@font-face{
+	font-family:'Nanum';
+	src:url('fonts/NanumSquareR.ttf');
+}
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 게시판들 h3 제목*/
+	#board-title{
+	font-family: 'SBAggroB';
+	color:#444444;
+	font-size:22px;
+	padding:40px 0px 70px;
+	}
+/* FAQ */
+	.faq p{
+		font-family:'Nanum';
+		font-size: 30px;
+		padding:10px;
+		margin:10px;
+	}
+/* 목록, 상세보기 */
+	.tablewrap{
+		font-family:'Nanum';
+	}
+	/*-- a링크 기본 --*/
+ 	.tablewrap a:link { 
+ 		color: black; 
+ 		text-decoration: none;
+ 	}
+ 	.tablewrap a:hover { 
+ 		color: #FD9F28; 
+ 		text-decoration: none;
+ 		font-weight: bolder;
+ 	}
+	/*-- 현재 선택 된 a링크 --*/
+	 .selectedA{
+		color: #FD9F28;
+		text-decoration: none;
+		font-weight: bolder;
+	}
+   
+	.tablewrap table {
+		width:1000px;
+	}
+	/*-- 본문 감싸기 할지말지 결정 */
+	.detail{
+		width:1000px;
+		border: 2px solid #d9d9d9;
+		border-radius:5px;
+		padding:10px;
+	}
+	/*-- 본문 th 오른쪽 선*/
+	.detail th{
+		border-right: 1px solid #d9d9d9;
+	
+	}
+	.tablewrap th{
+		height:40px;
+		border-bottom: 1px solid #d9d9d9;
+		padding: 5px;
+		
+	}
+	.tablewrap td{
+		width:150px;
+		height:40px;
+		table-layout:fixed;
+		text-align:center;
+		border-bottom: 1px solid #d9d9d9;
+    	padding: 2px;
+	}
+	.tablewrap tr:last-child td{
+		border:none;
+	}
+
+	/* 글씨 왼쪽 정렬 */
+	.tablewrap .rcleft{
+		text-align:left;
+	}
+	/* 본문 기본 크기 */
+	.tablewrap .content{
+		padding :15px;
+		margin:15px;
+		height : 500px; 
+		text-align : left; 
+		vertical-align : top;
+	}
+	/* 넓이 80고정 td*/
+	.tablewrap .rctd{
+		width:80px;
+	}
+/* 글작성&답글작성&수정하기 */
+	.writetable table {
+		width:950px;
+		font-family:'Nanum';
+	}
+	.writetable th{
+		padding: 3px;
+		text-align : left;
+		width:150px;
+	}
+	.writetable td{
+		padding: 3px;
+		width:800px;
+	}
+	.writetable tr:first-child td {
+		border-top: 1px solid #d9d9d9;
+	}
+	.writetable td{
+		padding: 5px;
+
+	}
+	/* 첨부파일 다운로드 a속성/삭제하기*/
+	#file_desc a{
+		color: black; 
+ 		text-decoration: none;
+	}
+	#file_desc a:hover { 
+ 		color: #FD9F28; 
+ 		text-decoration: none;
+ 		font-weight: bolder;
+ 	}
+ 	#file_desc input{
+ 		font-size:14px;
+ 		font-family:'Nanum';
+		padding:4px 7px 1px;
+ 	}
+/* 글삭제 */
+	.deltable table{
+ 		width:450px;
+ 		font-family:'Nanum';
+ 		font-size: 20px;
+		position:relative;
+		padding:20px;
+		border:2px solid #d9d9d9;
+				
+	}
+	.deltable caption{
+		font-weight: bolder;
+		padding:20px;
+	}
+	.deltable tr, td{
+		padding:20px;
+
+	}
+	.deltable th{
+		padding:20px;
+		width:80px;
+
+	}
+
+
+
+/*-- input태그 속성 --*/
+	.box input{
+		color: white;
+		font-size:15px;
+		background-color: #FD9F28;
+		border-color:#FD9F28;;
+		border-radius: 5px;
+		cursor:pointer;
+		font-family:'Nanum';
+		padding:2px 6px;
+		
+	}
+	input[class="share"], input[class="heart"]{
+    	font-family: FontAwesome;
+    	width:45px;
+    	height:35px;
+	}
+	
+	input[class="fullheart"]{
+		color: red;
+    	font-family: FontAwesome;
+    	width:45px;
+    	height:35px;
+	}
+

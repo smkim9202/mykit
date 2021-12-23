@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@font-face{
+	font-family:'NanumBold';
+	src:url('fonts/NanumSquareEB.ttf');
+}
+@font-face{
+	font-family:'Nanum';
+	src:url('fonts/NanumSquareR.ttf');
+}
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*item*/
+.pid, .itemtitle{
+	font-family: 'SBAggroB';
+}
+.itemtitle{
+	font-size:30px;
+}
+.pname, .t1, .t2, #title-action, .td2, .td3, .td4{
+	font-family:'Nanum';
+}
+.tr1 > td > #btn1,  #btn2,  #btn3,  #btn4{
+	font-family:'NanumBold';
+}
+.inp1, .inp2, #title-normal, .td1{
+	font-family:'NanumBold';
+}
+#list-item-button1, #list-item-button2{
+	font-family:'Nanum';
+}
+/*review*/
+#re_h3{
+	font-family:'NanumBold';
+	font-size:20px;
+	color:#444444;
+}
+#re_h4, #re_td1{
+	font-family:'NanumBold';
+}
+#re_td2, #re_sp, #re_td3{
+	font-family:'Nanum';
+}
+#review-title{
+	font-family:'NanumBold';
+	font-size:25px;
+	color:#444444;
+}
+#review-table > tr > .th2, .th3, .th1{
+	font-family:'NanumBold';
+	color:#444444;
+}
+#review-table > .tr1 > th{
+	font-family:'NanumBold';
+}
+#review-table > .tr1 > td{
+	font-family:'Nanum';
+}
+/*user*/
+.blinking{ 
+	-webkit-animation:blink 1.0s ease-in-out infinite alternate; 
+	-moz-animation:blink 1.0s ease-in-out infinite alternate; 
+	animation:blink 1.0s ease-in-out infinite alternate; 
+} 
+@-webkit-keyframes blink{ 
+	0% {opacity:0;} 
+	100% {opacity:1;} 
+}
+@-moz-keyframes blink{ 
+	0% {opacity:0;} 
+	100% {opacity:1;} 
+} 
+@keyframes blink{ 
+	0% {opacity:0;} 
+	100% {opacity:1;} 
+}
+#user-name{
+	font-family:'NanumBold';
+}
+.user-special{
+	font-family: 'SBAggroB';
+	color:#FD9F28;
+}
+.user-info, #t2 > tr >.td1{
+	font-family:'Nanum';
+}
+.admin-name{
+	font-family:'NanumBold';
+}
+/*cart*/
+#cart-title{
+	font-family:'NanumBold';
+	color:#444444;
+}
+.cart-special{
+	font-family: 'SBAggroB';
+	color:#FD9F28;
+}
+.cart-info{
+	font-family:'Nanum';
+}
